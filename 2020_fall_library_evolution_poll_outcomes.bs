@@ -9,7 +9,7 @@ Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA
 URL: https://wg21.link/P2262R0
 !Source: <a href="https://github.com/brycelelbach/wg21_p2262_2020_fall_library_evolution_poll_outcomes/blob/main/2020_fall_library_evolution_poll_outcomes.bs">GitHub</a>
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2233_2020_fall_library_evolution_poll_outcomes/issues
-Metadata Order: Author, This Version, Source, Issue Tracking, Project, Audience
+Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
 Markup Shorthands: markdown yes
 Toggle Diffs: no
 No Abstract: yes
