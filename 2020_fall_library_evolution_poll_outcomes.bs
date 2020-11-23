@@ -94,8 +94,6 @@ Some participants opted to not vote on every poll.
 Revise P0443R14 (Executors) as follows and return to Library Evolution for
   further review:
 - Apply [[P2235R0]].
-- Switch from trait classes to individual traits and add a section to the
-    proposal discussing the impact of the change.
 - Remove `static_thread_pool`.
     A separate follow-on proposal for `static_thread_pool` is encouraged.
 - Remove `any_executor`.
@@ -112,6 +110,10 @@ Focus on demonstrating field experience through implementations and usage,
   improving introductory material, minimizing the scope, resolving outstanding
   minor open issues, and developing wording to increase Library Evolution
   confidence in the maturity of [[P0443R14]] (Executors).
+
+We encourage a separate follow-on proposal exploring individual traits versus
+  combined traits classes in general, using [[P0443R14]] (Executors) as an
+  example to gauge impact.
 
 [[P2212R1]] (Relax Requirements for `time_point::clock`) is sent LWG for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket
@@ -250,8 +252,9 @@ Use one class for each individual trait instead of combined traits classes
 
 <h5 class="no-toc">Outcome</h4>
 
-Switch to individual traits in [[P0443R14]] (Executors) and add a section to
-  [[P0443R14]] (Executors) discussing the impact of the change.
+We encourage a separate follow-on proposal exploring individual traits versus
+  combined traits classes in general, using [[P0443R14]] (Executors) as an
+  example to gauge impact.
 
 <h5 class="no-toc">Selected Comments</h4>
 
