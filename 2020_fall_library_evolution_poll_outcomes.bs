@@ -740,7 +740,7 @@ We will continue on our planned course of aiming to ship [[P0443R14]]
   convinced that [[P0443R14]] (Executors) is sufficiently mature.
 Library Evolution wants to see more field experience with [[P0443R14]]
   (Executors).
-P0443R14 (Executors) authors and advocates should take note of this.
+[[P0443R14]] (Executors) authors and advocates should take note of this.
 Focus on demonstrating field experience through implementations and usage,
   improving introductory material, minimizing the scope, resolving outstanding
   minor open issues, and developing wording to increase Library Evolution
