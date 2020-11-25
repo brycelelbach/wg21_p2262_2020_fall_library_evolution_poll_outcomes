@@ -213,7 +213,7 @@ Poll 8: Send [[P2161R2]] (Remove Default Candidate Executor) to LWG for the
 
 # Summarized Outcomes # {#summarized-outcomes}
 
-Revise P0443R14 (Executors) as follows and return to Library Evolution for
+Revise [[P0443R14]] (Executors) as follows and return to Library Evolution for
   further review:
 - Apply [[P2235R0]].
 - Remove `static_thread_pool`.
@@ -671,7 +671,7 @@ Remove `any_executor::target` and `any_executor::target_type` from [[P0443R14]]
 <h5 class="no-toc">Outcome</h4>
 
 Consensus in favor.
-We have decided to remove `any_executor` will be removed from P0443R14, but if
+We have decided to remove `any_executor` will be removed from [[P0443R14]], but if
   it is pursued in another proposal, `any_executor::target` and
   `any_executor::target_type` shall be removed.
 
@@ -851,8 +851,8 @@ Focus on demonstrating field experience through implementations and usage,
 > I strongly want executors to make progress towards standardization; however, I
 >   am concerned by the number of fundamental changes that have been proposed
 >   recently.
-> For example P2235 proposes a design change that completely separates executors
->   / schedulers.
+> For example [[P2235R0]] proposes a design change that completely separates
+>   executors / schedulers.
 > There have also been discussions in the last month about whether properties
 >   (a large part of [[P0443R14]]) are the right abstraction.
 > There is also disagreement in SG1 [on whether] algorithms will receive
